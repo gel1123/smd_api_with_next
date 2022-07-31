@@ -2,6 +2,7 @@
     "name": "remote-java",
     "dockerComposeFile": "../../../docker/docker-compose.yml",
     "service": "java",
+    "shutdownAction": "none",
     "workspaceFolder": "/app",
     "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"

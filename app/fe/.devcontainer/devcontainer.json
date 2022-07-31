@@ -2,6 +2,7 @@
     "name": "remote-next",
     "dockerComposeFile": "../../../docker/docker-compose.yml",
     "service": "nextjs",
+    "shutdownAction": "none",
     "workspaceFolder": "/app",
     "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
