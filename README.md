@@ -4,23 +4,14 @@
 ```
 .
 ├── app
-│   ├── be  #<= SpringBootアプリケーションのソースコードと .devcontainer を配置している
-│   └── fe  #<= Next.jsアプリケーションのソースコードと .devcontainer を配置している
+│   ├── be       #<= SpringBootアプリケーションのソースコードと .devcontainer を配置している
+│   └── fe       #<= Next.jsアプリケーションのソースコードと .devcontainer を配置している
 │
-└── docker  #<= 各種コンテナ。dbclientコンテナ、javaコンテナ、mysqlコンテナ、nextjsコンテナの合計4つを有する
-    ├── dbclient
-    │   └── sessions
-    ├── java 
-    ├── mysql
-    │   ├── data
-    │   │   ├── #innodb_temp
-    │   │   ├── mysql
-    │   │   ├── performance_schema
-    │   │   ├── sample_schema
-    │   │   └── sys
-    │   ├── log
-    │   └── sql_init
-    └── nextjs
+└── docker       #<= 各種コンテナ
+    ├── dbclient #<= DBクライアントのコンテナ
+    ├── java     #<= Java17のコンテナ
+    ├── mysql    #<= MySQLのコンテナ
+    └── nextjs   #<= Node16のコンテナ
 ```
 
 ## BE参考
